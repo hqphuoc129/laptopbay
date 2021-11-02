@@ -5,13 +5,13 @@
 
 ## Plugin settings
 <code>
-plugins: [<br/>
-        '@/plugins/vue-carousel-card',<br/>
-        { src: "~/plugins/lightGallery.client.js", ssr: false },<br/>
-        { src: '~/plugins/vue-fb-customer-chat.js', mode: 'client', ssr: false },<br/>  
-        '~/plugins/vue-tilt.js',<br/>
-        '~/plugins/element-ui',<br/>
-        { src: '~plugins/slide-menu', ssr: false }<br/>
+plugins: [
+        '@/plugins/vue-carousel-card',
+        { src: "~/plugins/lightGallery.client.js", ssr: false },
+        { src: '~/plugins/vue-fb-customer-chat.js', mode: 'client', ssr: false },
+        '~/plugins/vue-tilt.js',
+        '~/plugins/element-ui',
+        { src: '~plugins/slide-menu', ssr: false }
  
     ]
   <code>
