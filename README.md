@@ -5,7 +5,7 @@
 
 ## Plugin settings
 <code>
-plugins: [
+[plugins: [
         '@/plugins/vue-carousel-card',
         { src: "~/plugins/lightGallery.client.js", ssr: false },
         { src: '~/plugins/vue-fb-customer-chat.js', mode: 'client', ssr: false },
