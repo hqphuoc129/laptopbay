@@ -4,8 +4,7 @@
 ![](https://github.com/hqphuoc129/laptopbay/blob/main/laptopbay.gif)
 
 ## Plugin settings
-
-"
+<code>
 plugins: [
         '@/plugins/vue-carousel-card',
         { src: "~/plugins/lightGallery.client.js", ssr: false },
@@ -15,4 +14,4 @@ plugins: [
         '~/plugins/element-ui',
         { src: '~plugins/slide-menu', ssr: false }
     ]
- "
+  <code>
