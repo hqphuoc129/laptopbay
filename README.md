@@ -11,7 +11,5 @@ plugins: [
         { src: '~/plugins/vue-fb-customer-chat.js', mode: 'client', ssr: false },
         '~/plugins/vue-tilt.js',
         '~/plugins/element-ui',
-        { src: '~plugins/slide-menu', ssr: false }
- 
-    ]
+        { src: '~plugins/slide-menu', ssr: false }]
   <code>
