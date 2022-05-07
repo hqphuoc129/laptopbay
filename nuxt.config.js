@@ -1,5 +1,7 @@
 export default {
-    // Global page headers: https://go.nuxtjs.dev/config-head
+    ssr: false,
+    target: 'server',
+    srcDir: '',
     head: {
         title: 'laptopbay',
         htmlAttrs: {
@@ -44,15 +46,6 @@ export default {
         '@nuxtjs/style-resources'
     ],
     tailwindcss: {},
-    server: {
-        port: 3030,
-        host: 'localhost',
-        /*
-         ** Nuxt timing api
-         ** See https://nuxtjs.org/api/configuration-server/#using-timing-api
-         */
-        timing: false,
-    },
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
